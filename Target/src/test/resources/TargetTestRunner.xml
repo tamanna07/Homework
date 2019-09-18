@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Amazon Automation" parallel="false">
+
+
+    <parameter name="url" value="https://www.target.com"/>
+
+    <test name = "Amazon Home">
+        <classes>
+            <class name="homeTarget.TestCartButton"></class>
+            <class name="homeTarget.TestLogo"></class>
+            <class name="homeTarget.TestClearance"></class>
+            <class name="homeTarget.TestDeliveryButton"></class>
+            <class name="homeTarget.TestWeekLYAd"></class>
+        </classes>
+    </test>
+
+</suite>
