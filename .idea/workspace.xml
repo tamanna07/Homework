@@ -16,7 +16,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -54,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/tsult/IdeaProjects/FrameHomeWork/BestBUY/src/test/resources/BestBuyTestRunner.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/tsult/IdeaProjects/FrameHomeWork/Walmart/src/test/resources/WalmartTestRunner.xml">
     <configuration name="C:/Users/tsult/IdeaProjects/FrameHomeWork/Amazon/src/test/resources/AmazonTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
@@ -85,6 +85,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/tsult/IdeaProjects/FrameHomeWork/Walmart/src/test/resources/WalmartTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Walmart" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Walmart/src/test/resources/WalmartTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestLogInPos" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
@@ -102,30 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSearchBox" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Amazon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="home.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="home" />
-      <option name="MAIN_CLASS_NAME" value="home.TestSearchBox" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/tsult/IdeaProjects/FrameHomeWork/Walmart/src/test/resources/WalmartTestRunner.xml" />
         <item itemvalue="TestNG.C:/Users/tsult/IdeaProjects/FrameHomeWork/BestBUY/src/test/resources/BestBuyTestRunner.xml" />
         <item itemvalue="TestNG.C:/Users/tsult/IdeaProjects/FrameHomeWork/Ebay/src/test/resources/EbayTestRunner.xml" />
         <item itemvalue="TestNG.C:/Users/tsult/IdeaProjects/FrameHomeWork/Amazon/src/test/resources/AmazonTestRunner.xml" />
         <item itemvalue="TestNG.TestLogInPos" />
-        <item itemvalue="TestNG.TestSearchBox" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +145,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Walmart/src/test/java/homeWalmart/TestDropDownButton.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FrameHomeWork$C__Users_tsult_IdeaProjects_FrameHomeWork_BestBUY_src_test_resources_BestBuyTestRunner_xml.ic" NAME="$PROJECT_DIR$/BestBUY/src/test/resources/BestBuyTestRunner.xml Coverage Results" MODIFIED="1568781640772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
